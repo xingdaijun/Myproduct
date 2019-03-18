@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body style="background:#F9F9F9">
+    <div id="bigDiv">
+        <div id="loginDiv">
+            <div class="loginimg">
+                <img src="./img/register/logo-footer.png" alt="1">
+            </div>
+            <p class="loginTitle">注册小米账号</p>
+            <p>国家/地区</p>
+            <select name="select" id="list">
+                <option value="cn">中国</option>
+                <option value="tw">中国台湾</option>
+                <option value="xg">中国香港</option>
+                <option value="br">Brazil</option>
+                <option value="dg">德国</option>
+                <option value="fg">法国</option>
+            </select>
+            <p class="sucess">成功注册账号后，国家/地区将不能被修改</p>
+            <p class="number">手机号码</p>
+            <div id="phone">
+                <span>+86</span>
+                <img src="./img/register/header_normal.png" alt="1">
+                <input type="text" placeholder="请输入手机号码">
+            </div>
+            <ul class="dropdown">
+                <li><span class="con">中国</span><span>+86</span></li>
+                <li><span class="con">中国台湾</span><span>+886</span></li>
+                <li><span class="con">中国香港</span><span>+852</span></li>
+                <li><span class="con">Brazil</span><span>+55</span></li>
+            </ul>
+            <input type="submit" class="submit" value="立即注册">
+        </div>
+        <div id="loginBottom">
+            <input type="checkbox">
+            <span class="agree">
+                注册帐号即表示您同意并愿意遵守小米 <a href="#">用户协议</a>和 <a href="#">隐私政策</a> 
+            </span>
+        </div>
+    </div>
+    <div id="footerUl">
+       <ul>
+           <li><a href="#">简体</a></li>
+           <li>|</li>
+           <li><a href="#">繁体</a></li>
+           <li>|</li>
+           <li><a href="#">English</a></li>
+           <li>|</li>
+           <li><a href="#">常见问题</a></li>
+       </ul>
+    </div>
+   <div id="copy">小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</div>
+   <script src="js/jquery-3.2.1.js"></script>
+   <script src="js/register.js"></script>
+</body>
+</html>

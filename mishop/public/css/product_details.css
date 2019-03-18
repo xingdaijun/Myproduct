@@ -1,0 +1,476 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#header{
+  margin-bottom: 85px;
+}
+/* 导航 */
+.product-box{
+  position: relative;
+  width: 100%;
+  z-index: 4;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  -webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.07);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.07);
+}
+.nav-content{
+  width: 1224px;
+  margin:0 auto;
+}
+.nav-content::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.nav-content h2{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #212121;
+  float: left;
+}
+.nav-content .right{
+  margin: 17px 0 0 0;
+  float: right;
+  font-size: 13px;
+}
+.nav-content .right a{
+  color:#616161;
+}
+.nav-content .right>a:hover{
+  color:#ff6700;
+}
+.nav-content .right span{
+  color: #e0e0e0;
+}
+.container{
+  padding:32px 0px 12px 0px;
+  position: relative;
+  width: 1226px;
+  margin: 0 auto;
+}
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 左侧轮播图 */
+.left-banner{
+  position: relative;
+  float: left;
+  height: 600px;
+  margin-left:30;
+  margin-top:-50px;
+  width:606px;
+}
+/* 图片 */
+.img-con{
+  width: 560px;
+  height:560px;
+  overflow: hidden;
+}
+.banner-img{
+  position: relative;
+}
+.banner-img img{
+  width: 560px;
+  height:560px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  opacity: 0;
+  transition-duration: 1s;
+}
+.banner-img .active{
+  opacity: 1;
+}
+/* 上下箭头 */
+.controls-direction a{
+  position: absolute;
+  top: 50%;
+  width: 41px;
+  height: 69px;
+  margin-top: -35px;
+}
+.controls-direction .prev{
+  left: 0;
+  background: url("../img/product/icon-slides.png") 
+  no-repeat -84px 50%
+}
+.controls-direction .prev:hover{
+  background-position: 0px 50%
+}
+.controls-direction .next{
+  right:44px;
+  background: url("../img/product/icon-slides.png") 
+  no-repeat -125px 50%;
+}
+.controls-direction .next:hover{
+  background-position: -41px 50%
+}
+/* 四条横线 */
+.four-line{
+  bottom: 10px;
+  width:560px;
+  text-align: center;
+}
+.four-line .list-item{
+  display: inline-block;  
+  font-size: 12px;
+  color: #666; 
+  text-align: center;
+}
+.list-item a{
+  background: #ccc;
+  width: 50px;
+  border-radius: 0;
+  height: 3px;
+  display: block;
+  margin: 0 5px;
+  text-align: center;
+  text-indent: -9999px;
+  overflow: hidden;
+  /* background: rgba(0,0,0,0.4); */
+  transition: all 0.2s;
+}
+.list-item a:hover{
+  background: #000;
+}
+.list-item a.active{
+  background: #000;
+}
+/* 右侧详情 */
+.pro-info{
+  float: right;
+  margin-left: 12px;
+  width:606px;
+}
+/* 标题 */
+.pro-info .title{
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #212121;
+}
+/* 提示 */
+.sale-desc{
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  font-size: 13px;
+}
+/* 经营主体 */
+.theme{
+  margin-bottom: 0;
+  color: #ff6700;
+  margin-top: 14px;
+}
+/* 价格 */
+.top-price{
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+  color: #ff6700;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0 20px;
+}
+/* 赠品  */
+.gift{
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 13px;
+}
+.gift-logo{
+  display:inline-block;
+  width: 80px;
+  padding: 2px 0;
+  text-align: center;
+  background: #ff6700;
+  color: #fff;
+}
+.gift-msg{
+  width: 430px;
+  line-height: 26px;
+  margin-left: 5px;
+}
+/* 地址 */
+.address{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.address-box{
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  padding-left: 50px; 
+  padding: 30px 40px 30px 32px;
+  position: relative;
+}
+.address-choose{
+  line-height: 1;
+  color: #ff6700;
+  cursor: pointer;
+}
+.address-box>span{
+  color:#ff6700;
+}
+.address-msg .item{
+  margin: 0 14px;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  font-size: 18px;
+}
+/* 产品版本 */
+.pro-eaition{
+  margin-top: 30px;
+}
+.pro-title{
+  line-height: 1;
+  font-size: 18px;
+}
+.pro-chooes{
+  margin-bottom: 30px;
+}
+.pro-chooes ul{
+  margin-left: -6px;
+  padding-top: 1px;
+}
+.pro-chooes ul:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+.pro-chooes ul .pro-list{
+  margin-left: 6px;
+  margin-top: 15px;
+  line-height: 42px;  
+  width: 298px;
+  height: 42px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: all .2s ease;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+}
+.pro-list a{
+  text-align: left;
+  margin: 0;
+  padding: 0 27px;
+}
+.pro-list .name{
+  width: 170px;
+  display: inline-block;
+}
+.pro-list .price{
+  color: #b0b0b0;
+}
+.pro-list img{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.pro-chooes ul .selection{
+  border:1px solid #ff5500;
+}
+/* 保险类型 */
+.insurance-choose .pro-title{
+  margin:15px 0
+}
+.insurance-choose .pro-title a{
+  float: right;
+  font-size: 14px;
+  color: #ff6700;
+}
+.insurance-list{
+  background: #fff;
+  cursor: pointer;
+  padding: 30px 0;
+  float: none;
+  border: 1px solid #e0e0e0;  
+  position: relative;
+}
+.insurance-choose .selection{
+  border:1px solid #ff6700;
+}
+.insurance-list::after{
+  content:"";
+  display:block;
+  clear: both;
+}
+.insurance-list .btn{
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  margin-left: 30px;
+  float: left;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  border:1px solid black;
+  border-radius: 50%;
+  color:#fff
+}
+.insurance-list .agree{
+  border-color:#ff6700;
+  background:#ff6700;
+}
+.insurance-list img{
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  margin-left: 10px;
+  float: left
+}
+.insurance-list div{
+  width: 370px;
+  overflow: hidden;
+  float: left;
+}
+.insurance-list .name{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.insurance-list .desc{
+  margin-top: 5px;
+  color: #757575;
+}
+.insurance-list div .btn{
+  display: inline-block;
+  float: none;
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  margin-right: 5px;
+  margin-top: 2px;
+  border-radius: 2px;
+  color:#fff;
+}
+.insurance-list div .agreement{
+  padding-top:5px;
+}
+.insurance-list div a{
+  color: #ff6700;
+  display: inline-block;
+  font-size: 15px;
+}
+.insurance-list div a span{
+  color: #757575;
+  margin: 0 5px;
+}
+.insurance-list div .price{
+  position: absolute;
+  right: 20px;
+  bottom: 28px;
+  color: #757575;
+}
+/* 已选择的手机保险类型 */
+.choosed-pro{
+  background: #f9f9fa;
+  padding: 30px;
+  margin:30px 0px;
+}
+.choosed-pro ul li{
+  list-style: none;
+  line-height: 30px;
+  color: #616161;
+}
+.choosed-pro ul li span{
+  float: right;
+}
+.choosed-pro .totalPrice{
+  color: #ff6700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.choosed-pro ul .two,.choosed-pro ul .three,.choosed-pro ul .four{
+  display:none;
+}
+/* 购买按钮 */
+ul.buy-btn{
+  margin: 10px 0 20px 0;
+}
+ul.buy-btn li{
+  margin-right: 10px;
+  vertical-align: text-top;
+  display: inline-block;
+  font-size:16px;
+}
+ul.buy-btn li:first-child a{
+  display: inline-block;
+  background: #ff6700;
+  border-color: #ff6700;
+  color:#fff;
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .4s;
+}
+ul.buy-btn li:first-child a:hover{
+  background:#ff5500;
+}
+ul.buy-btn li:last-child a{
+  display: inline-block;
+  width: 140px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .4s;
+  position: relative;
+  background-color: #B0B0B0;
+  color: #fff;
+}
+ul.buy-btn li:last-child a:hover{
+  background:#757575;
+}
+/* 底部承诺 */
+.promise-bottom a{
+  display: inline-block;
+  cursor: default;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.promise-bottom a span{
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 30px;
+  margin-bottom: 10px; 
+  color: #b0b0b0;
+
+}
+.promise-bottom a span .icon{
+  font-size:18px;
+  vertical-align: middle;
+}
+/* 底部价格信息 */
+.bottom-box{
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.box{
+  width: 1224px;
+  margin:0px auto;
+}
+.content h3{
+  font-size: 22px;
+  font-weight: normal;
+  margin:22px 0px;
+}

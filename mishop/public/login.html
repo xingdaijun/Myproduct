@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>用户登录</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <script src="./js/iconfont.js"></script>
+</head>
+<body>
+<div class="mi-logo">
+  <a href="./index.html"></a>
+</div>
+<!-- 主体 -->
+  <!--账号登录  -->
+<div class="container">
+  <a href="javascript:;" class="bg"></a>
+  <!--  -->
+  <div class="login-box">
+    <!-- 顶部 -->
+    <div class="box-top">
+      <a href="javascript:;" class="active">账号登录</a>
+      <span></span> 
+      <a href="javascript:;">扫码登录</a>
+    </div>
+    <!--切换账号登录和密码登录 -->
+      <!-- 账号登录 -->
+    <div>
+      <div class="id-login">
+        <!-- 输入框 -->
+        <div class="login">
+          <form>
+            <input type="text" id="text" placeholder="邮箱/手机号码/小米ID">
+            <span class="uname">用户名不能为空</span>
+            <input type="pasword" id="pwd" placeholder="密码">
+            <span class="upwd">密码不能为空</span>
+            <input type="submit" value="登录" id="btn">
+          </form>
+          <div class="msg">
+            <a href="http://127.0.0.1:5500/public/register.html" >手机短信登录/注册</a>
+            <a  href="http://127.0.0.1:5500/public/register.html" >立即注册</a>
+            <span>|</span>
+            <a href="javascript:;">忘记密码</a>
+          </div>
+        </div>
+        <p>本网页学习使用，无需注册,直接输入账号密码，即可登录</p>
+        <!-- 底部 -->
+        <div class="footer">
+          <div class="other">
+            <span></span>
+            <span>其他方式登录</span>
+            <span></span>
+          </div>
+          <div class="other-logo">
+            <a href="javascript:">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-icon_qq"></use>
+              </svg>
+            </a>
+            <a href="javascript:">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-icon_weibo"></use>
+              </svg>
+            </a>
+            <a href="javascript:">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-icon_weixin"></use>
+              </svg>
+            </a>
+            <a href="javascript:">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-zhifubao"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="erweima-login">
+          <div class="erweima-box">
+            <span class="erweima">
+              <table></table>
+              <p>二维码过期</p>
+              <table></table>
+              <p>刷新</p>
+            </span>
+            <p>使用小米商城APP扫一扫</p>
+            <span>小米手机可打开「设置」>「小米帐号」扫码登录</span>
+          </div>
+      </div>
+  </div>
+  </div>
+  <div class="alert">
+    登录成功，3秒后跳转至首页。。。
+  </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/login.js"></script>
+<script src="js/iconfont.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+.header{
+    width:100%;
+    height:40px;
+    background: #333333;
+    color: #0e0a0a;
+    margin: 0 auto;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.top_nav{
+    width:1226px;
+    margin:0 auto;
+    position: relative;
+}
+.top_nav ul{
+    list-style: none;
+    display:flex;
+    flex-flow:row wrap;
+}
+.top_nav li{
+    font-size:12px;
+    line-height: 40px;
+    margin-right:1rem;
+}
+.top_nav li a{color:#b0b0b0;}
+.top_nav li a:hover{color:#fff;}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    color:#b0b0b0
+}
+.right img{
+    width:25px;
+    height: 25px;
+    vertical-align: middle;
+}
+#shop-car{
+    width:110px;
+    background:#424242;
+    padding-left:20px;
+}
+.shop-car-dropdown{
+    position: absolute;
+    background:#fff;
+    color:#FF6700;
+    font-size:14px;
+    width:300px;
+    height:85px;
+    right:-51px;
+    top:-15px;
+    z-index: 1000;
+    line-height:85px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    visibility: hidden;
+    transition-duration: 0.3s
+}
+#shop-car:hover a{
+    color:#FF6700;
+}
+.top_nav::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.bottom_nav{
+    width:1226px;
+    margin:5px auto;
+    position: relative;
+}
+.mi-logo-a{
+    display: block;
+    width:55px;
+    height: 55px;
+    background:#FF6700;
+    position: absolute;
+    top:7px;
+    left:10px;
+}
+.mi-logo-a img{
+  margin:3px;
+  vertical-align: middle;
+}
+.nav_list::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.nav_list{
+    list-style-type: none;
+    width:620px;
+    margin-left:220px;
+    display: flex;
+}
+.nav_list a{
+    display:block;
+    padding:20px 10px 38px 10px;
+    transition-duration: 0.2s;
+}
+.nav_list a:hover{
+    color:#FF6700;
+}
+.search_box{
+    position:absolute;
+    top:10px;
+    right:65px;
+}
+.search_box input{
+    width:243px;
+    height:48px;
+}
+.search_box input+div{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.search_box a{
+    background:#eee;
+    font-size:12px;
+    color:#757575;
+    padding:3px;
+    transition-duration:0.2s; 
+}
+.search_box a:hover{
+    background:#FF6700;
+    color:#fff;
+}
+.dropdown{
+    width:1920px;
+    height:220px;
+    border-top:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
+    position:absolute;
+    top:80px;
+    left:-280px;
+    display:none;
+    background:#fff;
+    z-index: 100
+}
+.dropdown_content{
+    width:1226px;
+    height:220px;
+    margin:0 auto;
+    display:flex;
+}
+#header .content{
+    width:200px;
+    text-align: center;
+}
+#header .content p{
+    width:56px;
+    font-size:12px;
+    border:1px solid #FF6700;
+    color:#FF6700;
+    margin:0 auto 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#header .content div{
+    width:200px;
+    margin:10px auto; 
+    border-right:1px solid #DDDDDD;
+}
+#header .content a{
+    display:block;
+    font-size: 12px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 5px;
+    padding:0px;
+}
+#header .content img{
+    width:120px;
+    height:120px;
+}
+#header .content a:hover{
+    color:#000;
+}
+#header .content p:last-child{
+    border:none;
+}
+.nav_list li:hover .dropdown{
+    display: block;
+}
+.search_box .icon{
+    font-size:30px;
+    border:1px solid #b0b0b0;
+    padding:10px;
+    position: absolute;
+    top:0px;
+    right:-51px;
+    border-left:none;
+    z-index:1;
+    transition-duration: 0.2s;
+}
+.search_box .icon:hover{
+    background:#FF6700;
+}
