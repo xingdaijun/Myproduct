@@ -1,0 +1,18 @@
+.foot{
+  width:100%;
+  background:#000;
+  color:#8c8c8c;
+  font-size:14px;
+  padding:20px 0px;
+}
+.foot-box{
+  width:293px;
+  margin:0 auto;
+  text-align: center;
+}
+.foot img{
+  width:18px;
+}
+.foot a{
+  color: #8c8c8c;
+}

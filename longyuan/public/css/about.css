@@ -1,0 +1,117 @@
+#header{
+  position:fixed;
+  width:100%;
+  z-index: 100;
+  background: #fff;
+}
+.head{
+  width:100%;
+}
+.active{
+  height:20rem;
+}
+.box{
+  width:100%;
+  height:100%;
+  position: relative;
+  touch-action: none;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 700ms ease;
+}
+.section{
+  width:100%;
+  height:667px;
+  background:url("../img/about_p01_bg.png") center center;
+  background-size:cover; 
+  position: relative;
+}
+.text{
+  position: absolute;
+  top:150px;
+  left: 10%;
+  width: 80%;
+  height: 40%;
+  text-align: left;
+}
+.text .img1{
+  width:115px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.text .img2{
+  width:280px;
+  margin-left:20px;
+}
+.kuang{
+  display:block;
+  width:95%;
+  height:580px;
+  position: absolute;
+  top:70px;
+  left:50%;
+  margin-left:-48%;
+  z-index: 101;
+  border:3px solid rgba(89,102,125,0.5);
+}
+.section2{
+  background:url("../img/about_p02_bg.png") center center;
+  background-size:cover;
+}
+.section3{
+  background:url("../img/about_p03_bg.png") center center;
+  background-size:cover;
+}
+.section4{
+  background:url("../img/about_p04_bg.png") center center;
+  background-size:cover;
+}
+.section5{
+  background:url("../img/about_p05_bg.png") center center;
+  background-size:cover;
+}
+.section5 .text img{
+  display:block;
+  width:200px;
+  margin:100px auto;
+}
+.msg{
+  position: absolute;
+  top:70%;
+  left:50%;
+  margin-left:-98.6px;
+}
+.msg a{
+  display: block;
+  margin-bottom:10px;
+}
+.msg img{
+  width: 15px;
+}
+.msg span{
+  color:#fff;
+  font-size:12px;
+}
+.msg a:last-child{
+  width:24px;
+  height: 24px;
+  border: 2px solid #9ec5e2;
+  border-radius: 50%;
+  position: relative;
+  margin-top:28%;
+  left:50%;
+  margin-left:-12px;
+  background: url("../img/about_menu_down.png") center center no-repeat;
+  transform: rotate(180deg);
+}
+.section>a{
+  width:24px;
+  height: 24px;
+  border: 2px solid #9ec5e2;
+  border-radius: 50%;
+  position: absolute;
+  top:100%;
+  margin-top:-15%;
+  left:50%;
+  margin-left:-12px;
+  background: url("../img/about_menu_down.png") center center no-repeat;
+}

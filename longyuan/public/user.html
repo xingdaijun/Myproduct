@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录龙渊通行证</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/back.png">
+    </a>
+    <span>龙渊通行证</span>
+    <img src="img/close1.png">
+  </header>
+  <section>
+    <table></table>
+    <div class="box"> 
+      <form method="POST">
+        <div class="login-box">
+          <span class="userspan"></span>
+          <input type="text" id="uname" placeholder="请输入用户名" required autocomplete='tel'>
+          <span class="alert user"></span>
+        </div>
+        <div class="login-box upwd-box">
+            <span class="userspan mima"></span>
+            <input type="password" id="upwd" placeholder="请输入密码" required autocomplete='tel'>
+            <span class="alert upwd"></span>
+        </div>
+        <a href="javascript:;" class="login-btn">登录</a>
+        <div class="line-box">
+          <b class="line"></b>
+          <a href="register.html">账号注册</a>
+        </div>
+      </form>
+    </div>
+    <div class="login-msg">
+    </div> 
+    <div class="foot">
+        <img src="img/logo.png" alt="">
+        <div class="logo-name">龙渊网络</div>
+        <div>LONG MOBILE</div>
+        <div class="number">客服电话：4000902980</div>
+    </div>
+  </section>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/user.js"></script>
+</body>
+</html>
