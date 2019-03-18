@@ -1,0 +1,24 @@
+section ul{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap
+}
+section li{
+  width: 33.33%;
+  height:124px;
+  outline: 1px solid #e5e5e5;
+  text-align: center;
+  background: #f1f1f1;
+}
+section img{
+  display:block;
+  width:55px;
+  margin:20px auto;
+}
+section span{
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:14px; 
+}

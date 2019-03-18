@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>龙渊</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/swiper-4.3.5.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <header id="header"></header>
+    <section>
+   <!-- 轮播图  -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div>
+                <a href="javascript:;">
+                  <img src="img/index/cytus_bg.jpg" alt="" class="background">
+                  <img src="img/index/cytus_logo.png" alt="" class="name">
+                </a>
+              </div>
+            </div>
+          <div class="swiper-slide">
+            <div>
+              <a href="javascript:;">
+                <img src="img/index/banner_sdorica_bg.jpg" alt="" class="background">
+                <img src="img/index/060172944915483854498672405.png" alt="" class="name two">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <a href="javascript:;">
+                <img src="img/index/banner03_bg.png" alt="" class="background">
+                <img src="img/index/banner_st01_four.png" alt="" class="name three">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div>
+              <a href="javascript:;">
+                <img src="img/index/060165362015483096209442183.jpg" alt="" class="background">
+                <img src="img/index/060158326015482392605089460.png" alt="" class="name four">
+              </a>
+            </div>
+          </div>
+        </div> 
+        <div class="swiper-pagination"></div>
+      </div>  
+   <!--游戏卡片和新闻-->
+      <ul>
+        <!-- <li>
+          <div class="cart">
+            <div class="cart-details">
+              <div class="cart-img">
+                <img src="img/index/5a2f5295c84ad.jpg" alt="">
+              </div>
+              <p class="title">《迷雾大陆》</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cart">
+            <div class="cart-details">
+              <div class="cart-img">
+                <img src="img/index/5a15213ca1a46.jpg" alt="">
+              </div>
+              <p class="title">《放学别跑》</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cart">
+            <div class="cart-details">
+              <div class="cart-img">
+                <img src="img/index/58761871406dd.png" alt="">
+              </div>
+              <p class="title">《无名之辈》</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="cart">
+            <div class="cart-details">
+              <div class="cart-img">
+                <img src="img/index/587618e1ce465.jpg" alt="">
+              </div>
+              <p class="title">龙渊网络设百万奖学金激励学弟学妹</p>
+            </div>
+          </div>
+        </li> -->
+      </ul>
+  </section>
+  <footer id="footer"></footer>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/index.js"></script>  
+  <script src="js/swiper-4.3.5.min.js"></script>
+  <script>
+    var n=setTimeout(function(){
+      var mySwiper = new Swiper ('.swiper-container', {
+        loop:true,
+        // 如果需要分页器
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        autoplay:{
+          delay:3000 ,
+          disableOnInteraction:false
+        }
+      })
+    },0)
+  </script>
+</body>
+</html>
